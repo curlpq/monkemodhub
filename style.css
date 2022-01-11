@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+p {
+    color:white
+}
+
+a {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+a:hover {
+    color:rgb(30, 128, 255);
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h4 {
+    color:whitesmoke;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.topnavbar {
+    background-color: #333;
+    color:whitesmoke;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.infobar {
+    background-color: rgb(20, 20, 20);
+    color:rgb(165, 165, 165);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+}
