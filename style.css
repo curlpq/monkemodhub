@@ -33,11 +33,12 @@ h4 {
 
 .moddiv {
     background-color: #333;
+    border-radius: 7px;
 }
 
 
 .infobar {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20, 0.8);
     color:rgb(165, 165, 165);
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
