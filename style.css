@@ -7,6 +7,11 @@ p {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+h1 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
 
 a {
     color:rgb(255, 255, 255);
