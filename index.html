@@ -5,6 +5,8 @@
 
 <!--Import CSS-->
 <link rel="stylesheet" href="style.css">
+<!--Import JavaScript (for search function)-->
+<script src="script.js"></script>
 
 <!--Logo-->
 <div class="topnavbar">
@@ -20,7 +22,13 @@
 <img src="https://cdn.freebiesupply.com/logos/large/2x/discord-logo-black-and-white.png" height=13px>
 <a href="https://discord.gg/GtbJh7QXUC">Join our Discord</a>
 
+<br>
+<br>
+<input id="searchbar" onkeyup="search_mod()" type="text"
+        name="search" placeholder="Search MonkeModHub..">
+
 <!--Mods-->
+<ol id="list">
 <div class="moddiv">
   <p>Monke Mod Manager - Made by DeadlyKitten</p>
   <img src="https://camo.githubusercontent.com/76c24e988d2d4bd527f6068ff93ae5b9dbb381d92299f0913999ecd52b98b83a/68747470733a2f2f692e696d6775722e636f6d2f366d454942786d2e706e67" height=100px>
@@ -73,6 +81,9 @@
     <p>A PC library for Gorilla Tag that handles various room-related things (and more?)</p>
     <a href="https://github.com/legoandmars/Utilla/releases">Download</a>
 </div>
+</ol>
+
+
 <br>
 <p>More mods coming soon</p>
 <p>All downloads are for the <a href="https://store.steampowered.com/app/1533390/">PC/Steam</a> version of Gorilla Tag</p>
