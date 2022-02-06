@@ -18,6 +18,11 @@ a {
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+#modtitle {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
 a:hover {
     color:rgb(30, 128, 255);
     text-align: center;
@@ -43,6 +48,12 @@ h4 {
 .moddiv {
     background-color: #333;
     border-radius: 7px;
+    display: list-item;
+}
+
+.moddiv:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.350);
+    transition: 0.10s ease-in-out;
 }
 
 @viewport {
@@ -60,4 +71,38 @@ h4 {
     bottom: 0px;
     height: 30px;
     width: 100%;
+}
+
+#searchbar {
+    background-color: #333;
+    padding: 10px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    color:rgb(255, 255, 255);
+}
+
+@media (max-width: 700px) {
+    #searchbar {
+        width: 85%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+input[type=text] {
+    width: 25%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ }
+
+ /* When the input field gets focus,
+      change its width to 100% */
+ input[type=text]:focus {
+   width: 45%;
+ }
+
+#list{
+    padding: 0px;
 }
