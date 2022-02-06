@@ -85,6 +85,7 @@ h4 {
     border-color: rgb(255, 255, 255);
     border-radius: 7px;
     color:rgb(255, 255, 255);
+    border: none;
 }
 
 @media (max-width: 700px) {
