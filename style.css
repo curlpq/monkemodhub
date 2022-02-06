@@ -18,11 +18,13 @@ a {
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
 #modtitle {
     color:rgb(255, 255, 255);
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
 a:hover {
     color:rgb(30, 128, 255);
     text-align: center;
@@ -42,7 +44,11 @@ h4 {
     text-align: center;
     width: 100%;
     height: 130px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://cdn.akamai.steamstatic.com/steam/apps/1533390/ss_e5bf9254ee2ec94c884bce2a29ad265a2afd0146.600x338.jpg?t=1632461123");
+}
+.blurimg {
+    filter: blur(8px);
 }
 
 .moddiv {
@@ -84,7 +90,7 @@ h4 {
 @media (max-width: 700px) {
     #searchbar {
         width: 85%;
-        padding-left: 7.5%;
+        padding-left: 7%;
         padding-right: 7.5%;
         justify-content: center;
         text-align: center;
@@ -105,4 +111,22 @@ input[type=text] {
 
 #list{
     padding: 0px;
+}
+
+.downloadlink{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.downloadlink:hover {
+    color: white;
+    background-color: RoyalBlue;
 }
